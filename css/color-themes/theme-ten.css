@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+a,
+.theme_color,
+.btn-style-one,
+.amount-box .icon,
+.more-schedule a,
+.contact-box .icon,
+.options-list a:hover,
+.user-box .designation,
+.message-chat-box .tick,
+.wireframe-box .important,
+.activity-widget .view-more,
+.skills .skill-item .icon,
+.trading-list li .icon.up,
+.email-info-block .icon,
+.web-section h4:before,
+.ticket-profile .price,
+.kanban-block .category,
+.timing-box .button-box a,
+.file-box .pages-list:before,
+.ticket-profile .email .icon,
+.timing-box .post-info li .icon,
+.contact-column .designation span,
+.activity-section .title-box h4 a,
+.ticket-block .total-tickets span,
+.search-box .form-group button:hover,
+.notification-boxed .activity-link:hover,
+.form-group .ui-button .ui-icon:before,
+.transaction-block .name-box .numbering,
+.contact-options-box .view-list li:hover a,
+.contact-options-box .view-list li.active a,
+.testimonial-section .title-box .view-more,
+.platform-intro-section .platform-tabs .tab-btn .tick,
+.email-pages-list li a:hover, .email-pages-list li.active a,
+.main-header .header-right .options-box .profile-box .pages li a:hover,
+.main-header .header-right .options-box .notification-block .inner h3 a:hover,
+.order-tabs .tab-btns .tab-btn:hover, .order-tabs .tab-btns .tab-btn.active-btn,
+.email-tabs .tab-btns .tab-btn:hover, .email-tabs .tab-btns .tab-btn.active-btn,
+.main-header .header-right .options-box .notification-box .notification-box-btn:hover{
+	color:#255f4c;
+}
+
+/* Background Color */
+
+.my-chat p,
+.fc-h-event,
+.btn-style-two,
+.btn-style-three,
+.plan-box .box-inner,
+.btn-style-one:before,
+.user-info-list li .icon,
+.kanban-block .title span,
+.sidenav-list ul li a span,
+.sidenav-list ul li a .icon,
+.message-chat-box .new-messages,
+.wireframe-box .important:before,
+.web-section .authors-list li span,
+.email-tabs .tab-btns .tab-btn:before,
+.notification-boxed .notification-btn,
+.fc-h-event .fc-event-title-container,
+.contact-column .contact-list li .icon,
+.order-tabs .tab-btns .tab-btn:before,
+.ticket-block .percentage:before,
+.ui-state-active, .ui-widget-content .ui-state-active,
+.styled-pagination li a:hover, .styled-pagination li a.active,
+.email-section .email-box:nth-child(2n + 0) .inner-box::before,
+.main-header .header-right .options-box .notification-box .view,
+.platform-intro-section .platform-tabs .tab-btn .new-messages{
+	background-color:#255f4c;
+}
+
+.btn-style-one,
+.amount-box .icon,
+.contact-box .icon,
+.kanban-block .category,
+.email-info-block .icon,
+.trading-list li .icon.up,
+.skills .skill-item .icon,
+.timing-box .button-box a,
+.ticket-profile .email .icon{
+	background-color:rgba(37,95,76,0.10);
+}
+
+/*Border Color*/
+
+.fc-h-event,
+.activity-list li:after,
+.ui-state-active, .ui-widget-content .ui-state-active,
+.styled-pagination li a:hover, .styled-pagination li a.active,
+.platform-intro-section .platform-tabs .tab-btns .tab-btn:hover,
+.file-box .check-box input[type="checkbox"]:checked + label:before,
+.platform-intro-section .platform-tabs .tab-btns .tab-btn.active-btn,
+.email-section .check-box input[type="checkbox"]:checked + label:before,
+.todo-info-box .check-box input[type="checkbox"]:checked + label:before{
+	border-color:#255f4c;
+}

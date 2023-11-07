@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Atome Dashboard HTML Template | File Manager</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<link href="css/calander.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<!-- Color Switcher Mockup -->
+<link href="css/color-switcher-design.css" rel="stylesheet">
+<!-- Color Themes -->
+<link id="theme-color-file" href="css/color-themes/theme-one.css" rel="stylesheet">
+
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+</head>
+
+<body class="">
+
+<div class="page-wrapper">
+	<!-- Menu Dark Layer -->
+ 	<div class="menu-dark-layer"></div>
+ 	
+    <!-- Preloader -->
+    <div class="preloader"></div>
+ 	
+    <!-- Main Header-->
+    <header class="main-header">
+    	
+    	<!-- Header Upper -->
+        <div class="header-upper">
+        	<div class="auto-container">
+            	<div class="clearfix">
+                	
+					<!-- Header Left -->
+					<div class="header-left clearfix">
+						<h2>File Manager</h2>
+					</div>
+					
+					<!-- Header Right -->
+					<div class="header-right clearfix">
+						
+						<!-- Search -->
+                        <div class="search-box">
+                        	<form method="post" action="contact.html">
+                                <div class="form-group">
+                                    <input type="search" name="search-field" value="" placeholder="Search here..." required>
+                                    <button type="submit"><span class="icon fa fa-search"></span></button>
+                                </div>
+                            </form>
+						</div>
+						
+						<div class="nav-outer clearfix">
+                    
+							<!-- Main Menu -->
+							<nav class="main-menu navbar-expand-md">
+								<div class="navbar-header">
+									<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</div>
+
+								<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+									<ul class="navigation clearfix">
+										<li class="dropdown"><a href="#">Course</a>
+											<ul>
+												<li><a href="featured-courses.html">Featured Courses</a></li>
+												<li><a href="latest-courses.html">Latest Courses</a></li>
+												<li><a href="category.html">Course Categories</a></li>
+												<li><a href="course-detail.html">Course Landing</a></li>
+												<li><a href="course-lesson.html">Course Lesson</a></li>
+											</ul>
+										</li>
+										<li class="dropdown"><a href="#">Instructor</a>
+											<ul>
+												<li><a href="dashboard.html">Instructor Dashboard</a></li>
+												<li><a href="manage-course.html">Manage Courses</a></li>
+												<li><a href="edit-course.html">Edit Course</a></li>
+												<li><a href="earning.html">Earnings</a></li>
+												<li><a href="instructor-profile.html">Instructor Profile</a></li>
+												<li><a href="team.html">Popular Instructors</a></li>
+											</ul>
+										</li>
+										<li class="dropdown"><a href="#">Student</a>
+											<ul>
+												<li><a href="enrolled-courses.html">Enrolled Courses</a></li>
+												<li><a href="certificate.html">Certificate Center</a></li>
+												<li><a href="test.html">Quiz</a></li>
+												<li><a href="result.html">Quiz Result</a></li>
+												<li><a href="student-profile.html">Student Profile</a></li>
+											</ul>
+										</li>
+										<li class="dropdown"><a href="#">Pages</a>
+											<ul>
+												<li><a href="feedback.html">Subscription</a></li>
+												<li><a href="blog.html">Blog</a></li>
+												<li><a href="blog-detail.html">Blog Detail</a></li>
+												<li><a href="not-found.html">Error Page</a></li>
+												<li><a href="coming-soon.html">Coming Soon</a></li>
+												<li><a href="checkout.html">Checkout</a></li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+								
+							</nav>
+							
+						</div>
+						
+						<!-- Options Box -->
+						<div class="options-box d-flex clearfix">
+							
+							<!-- Options List -->
+							<div class="options-list clearfix">
+								<span class="more_dropdown flaticon-gear">
+									<div class="dropdown-content">
+										<a href="login.html"><span><i class="flaticon-user-1"></i>Login</span></a>
+										<a href="sign-up.html"><span><i class="flaticon-padlock"></i>Sign Up</span></a>
+									 </div>							
+								</span>
+							</div>
+							
+							<!-- Notification Box -->
+							<div class="notification-box">
+								<div class="dropdown">
+									<button class="notification-box-btn dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flaticon-bell"></span><i class="notification-alert">2</i></button>
+									<div class="dropdown-menu pull-right cart-panel" aria-labelledby="dropdownMenu">
+
+										<div class="notification-block">
+											<div class="inner">
+												<div class="image"><img src="images/resource/author-1.jpg" alt="" /></div>
+												<h3><a href="#">Jessica Parl</a></h3>
+												<div class="notification-text">It is a long established fact that a most reader will be distracted by the way readable</div>
+												<div class="post-time">15 min ago</div>
+											</div>
+										</div>
+										<div class="notification-block">
+											<div class="inner">
+												<div class="image"><img src="images/resource/author-2.jpg" alt="" /></div>
+												<h3><a href="#">David John</a></h3>
+												<div class="notification-text">It is a long established fact that a like reader will</div>
+												<div class="post-time">15 min ago</div>
+											</div>
+										</div>
+										<div class="notification-block">
+											<div class="inner">
+												<div class="image"><img src="images/resource/author-3.jpg" alt="" /></div>
+												<h3><a href="#">Jonathon Deo</a></h3>
+												<div class="notification-text">It is a long established fact that a reader will</div>
+												<div class="post-time">15 min ago</div>
+											</div>
+										</div>
+										
+										<a href="#" class="view">View All</a>
+										
+									</div>
+								</div>
+							</div>
+							<!-- End Notification Box -->
+							
+							<!-- Profile Box -->
+							<div class="profile-box dropdown" id="someElementID5">
+								<div class="btn btn-default dropdown-toggle">
+									<span class="profile-image"><img src="images/resource/author-1.jpg" alt="" /></span>
+								</div>
+								<div class="profile-content">
+									<div class="setting"><a href="setting.html">Settings</a></div>
+									<!-- Dark Mode -->
+									<div class="dark-mode">
+										<div class="clearfix">
+											<div class="pull-left">
+												<div class="mode"><span class="icon"><img src="images/icons/moon.png" alt="" /></span> Dark Mode</div>
+											</div>
+											<div class="pull-right">
+												<!-- Dark Btns -->
+												<ul class="dark-buttons clearfix">
+													<li data-tab="#" class="off">Off</li>
+													<li class="boll"><span class="round"></span></li>
+													<li data-tab="#" class="on">On</li>
+												</ul>	
+											</div>
+										</div>
+									</div>
+									<!-- Pages -->
+									<ul class="pages">
+										<li><a href="login.html">Sign In</a></li>
+										<li><a href="sign-up.html">Sign Up</a></li>
+										<li><a href="feedback.html">Feedback</a></li>
+										<li><a href="contact.html">Contact Us</a></li>
+										<li><a href="help.html">Help</a></li>
+									</ul>
+								</div>
+							</div>
+							
+						</div>
+						
+						<!-- Left Sidebar Btn -->
+						<div class="left-sidebar-btn hidden-bar-opener">
+							<span class="icon flaticon-menu-2"></span>
+						</div>
+						
+					</div>
+					
+                </div>
+            </div>
+        </div>
+        <!--End Header Upper-->
+        
+		<!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><span class="icon fa fa-remove"></span></div>
+            
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+            </nav>
+        </div><!-- End Mobile Menu -->
+		
+    </header>
+    <!--End Main Header -->
+	
+	<!-- Manager Section -->
+    <section class="manager-section">
+    	<div class="auto-container">
+        	<div class="row clearfix">
+				
+				<!-- File Block -->
+				<div class="file-block col-lg-3 col-md-6 col-sm-12">
+					<div class="inner-box">
+						<div class="content">
+							<span class="icon"><img src="images/icons/g-drive.png" alt="" /></span>
+							Storage
+							<strong>Google Drive</strong>
+						</div>
+						<div class="total-storage">
+							<span>Total</span>
+							25 GB / 50GB
+						</div>
+						<div class="space-percentage"></div>
+					</div>
+				</div>
+				
+				<!-- File Block -->
+				<div class="file-block col-lg-3 col-md-6 col-sm-12">
+					<div class="inner-box">
+						<div class="content">
+							<span class="icon"><img src="images/icons/onedrive.png" alt="" /></span>
+							Storage
+							<strong>OneDrive</strong>
+						</div>
+						<div class="total-storage">
+							<span>Total</span>
+							25 GB / 50GB
+						</div>
+						<div class="space-percentage onedrive"></div>
+					</div>
+				</div>
+				
+				<!-- File Block -->
+				<div class="file-block col-lg-3 col-md-6 col-sm-12">
+					<div class="inner-box">
+						<div class="content">
+							<span class="icon"><img src="images/icons/dropbox.png" alt="" /></span>
+							Storage
+							<strong>Dropbox</strong>
+						</div>
+						<div class="total-storage">
+							<span>Total</span>
+							25 GB / 50GB
+						</div>
+						<div class="space-percentage dropbox"></div>
+					</div>
+				</div>
+				
+				<!-- File Block -->
+				<div class="file-block col-lg-3 col-md-6 col-sm-12">
+					<div class="inner-box">
+						<div class="content">
+							<span class="icon"><img src="images/icons/icloud.png" alt="" /></span>
+							Storage
+							<strong>iCloud</strong>
+						</div>
+						<div class="total-storage">
+							<span>Total</span>
+							25 GB / 50GB
+						</div>
+						<div class="space-percentage icloud"></div>
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="row clearfix">
+				
+				<!-- Pages Column -->
+				<div class="pages-column col-lg-3 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<!-- Button Box -->
+						<div class="button-box">
+							<a class="theme-btn btn-style-two" href="email.html"><span class="txt"><i class="fa fa-plus"></i> Upload</span></a>
+						</div>
+						<ul class="email-pages-list">
+							<li class="active"><a href="#"><span class="icon flaticon-folder"></span>All file</a></li>
+							<li><a href="#"><span class="icon flaticon-gallery"></span>Images</a></li>
+							<li><a href="#"><span class="icon flaticon-video-camera"></span>videos</a></li>
+							<li><a href="#"><span class="icon flaticon-musical-note"></span>Music</a></li>
+							<li><a href="#"><span class="icon flaticon-document"></span>Documents</a></li>
+							<li><a href="#"><span class="icon flaticon-more"></span>More</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<!-- Email Column -->
+				<div class="email-column col-lg-9 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<!-- File Box -->
+						<div class="file-box clearfix">
+							<div class="pull-left">
+								<ul class="pages-list">
+									<li>All File</li>
+									<li>Folder</li>
+									<li>Library</li>
+								</ul>
+							</div>
+							<div class="pull-right clearfix">
+								<!-- Search Box -->
+								<div class="search-box-outer">
+									<div class="search-box-btn"><span class="flaticon-search"></span></div>
+								</div>
+								
+								<div class="star flaticon-star"></div>
+								
+								<!-- Check Box -->
+								<div class="check-box">
+									<input type="checkbox" name="remember-password" id="type-1"> 
+									<label for="type-1">Check All</label>
+								</div>
+								
+							</div>
+						</div>
+						<!-- End File Box -->
+						
+						<!-- Manager Recent File -->
+						<div class="manager-recent-files">
+							<div class="title-box">
+								<h3>Recent Files</h3>
+							</div>
+							<div class="recent-file-outer">
+								<div class="recent-file-inner">
+									<div class="recent-file-content">
+									
+										<!-- Recent Title Box -->
+										<div class="recent-title-box">
+											<span class="title">File Name</span>
+											<span class="title">File Items</span>
+											<span class="title">Date</span>
+											<span class="title">File Size</span>
+										</div>
+										
+										<!-- Recent File Box -->
+										<div class="recent-file-box">
+											<div class="col ">
+												<span class="image"><img src="images/icons/gallery.png" alt="" /></span>
+												video.mp4
+											</div>
+											<span class="col ">1 File</span>
+											<span class="col ">28/2/2021</span>
+											<span class="col mb">25.0 MB</span>
+											<i class="flaticon-more"></i>
+										</div>
+										
+										<!-- Recent File Box -->
+										<div class="recent-file-box">
+											<div class="col ">
+												<span class="image"><img src="images/icons/youtube.png" alt="" /></span>
+												Selfie.jpg
+											</div>
+											<span class="col ">1 File</span>
+											<span class="col ">28/2/2021</span>
+											<span class="col mb">1.02 MB</span>
+											<i class="flaticon-more"></i>
+										</div>
+										
+										<!-- Recent File Box -->
+										<div class="recent-file-box">
+											<div class="col ">
+												<span class="image"><img src="images/icons/play.png" alt="" /></span>
+												Music.mp3
+											</div>
+											<span class="col ">1 File</span>
+											<span class="col ">28/2/2021</span>
+											<span class="col mb">21.0 MB</span>
+											<i class="flaticon-more"></i>
+										</div>
+										
+										<!-- Recent File Box -->
+										<div class="recent-file-box">
+											<div class="col ">
+												<span class="image"><img src="images/icons/gallery.png" alt="" /></span>
+												Scenery.jpg
+											</div>
+											<span class="col ">1 File</span>
+											<span class="col ">28/2/2021</span>
+											<span class="col mb">1.20 MB</span>
+											<i class="flaticon-more"></i>
+										</div>
+										
+										<!-- Recent File Box -->
+										<div class="recent-file-box">
+											<div class="col ">
+												<span class="image"><img src="images/icons/document.png" alt="" /></span>
+												document.doc
+											</div>
+											<span class="col ">1 File</span>
+											<span class="col ">28/2/2021</span>
+											<span class="col mb">10.0 MB</span>
+											<i class="flaticon-more"></i>
+										</div>
+										
+										<!-- Recent File Box -->
+										<div class="recent-file-box">
+											<div class="col ">
+												<span class="image"><img src="images/icons/youtube.png" alt="" /></span>
+												video.mp4
+											</div>
+											<span class="col ">1 File</span>
+											<span class="col ">28/2/2021</span>
+											<span class="col mb">25.0 MB</span>
+											<i class="flaticon-more"></i>
+										</div>
+										
+									</div>
+								</div>
+								
+								<!-- Lower Box -->
+								<div class="lower-box clearfix">
+									<div class="pull-left">
+										<div class="copyright">Showing <span>1-6</span> from <span>40</span> data</div>
+									</div>
+									<div class="pull-right">
+										<!-- Styled Pagination -->
+										<ul class="styled-pagination clearfix">
+											<li class="next"><a href="#"><span class="flaticon-left-arrow-2"></span></a></li>
+											<li><a href="#" class="active">1</a></li>
+											<li><a href="#">2</a></li>
+											<li><a href="#">3</a></li>
+											<li class="next"><a href="#"><span class="flaticon-next-3"></span></a></li>
+										</ul>
+										<!-- End Styled Pagination -->
+									</div>
+								</div>
+								<!-- End Lower Box -->
+								
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</section>
+	<!-- End Manager Section -->
+	
+	<!-- Sidebar Nav -->
+	<div class="sidenav-list">
+		<ul class="navbar">
+			<li><a href="index.html"><i class="icon flaticon-home-page"></i> <span><i class="flaticon-home-page"></i> Dashboard</span></a></li>
+			<li><a href="email.html"><i class="icon flaticon-envelope"></i> <span><i class="flaticon-envelope"></i> Email</span></a></li>
+			<li><a href="contact.html"><i class="icon flaticon-user-2"></i> <span><i class="flaticon-user-2"></i> Contacts</span></a></li>
+			<li><a href="crypto.html"><i class="icon flaticon-dollar-symbol"></i> <span><i class="flaticon-dollar-symbol"></i> Crypto</span></a></li>
+			<li><a href="kanban.html"><i class="icon flaticon-kanban"></i> <span><i class="flaticon-kanban"></i> Kanban</span></a></li>
+			<li><a href="invoicing.html"><i class="icon flaticon-invoice"></i> <span><i class="flaticon-invoice"></i> Invoicing</span></a></li>
+			<li><a href="banking.html"><i class="icon flaticon-wallet"></i> <span><i class="flaticon-wallet"></i> Banking</span></a></li>
+			<li><a href="ticketing.html"><i class="icon flaticon-tickets"></i> <span><i class="flaticon-tickets"></i> Ticketing</span></a></li>
+			<li><a href="file-manager.html"><i class="icon flaticon-folder"></i> <span><i class="flaticon-folder"></i> File Manager</span></a></li>
+			<li><a href="user.html"><i class="icon flaticon-user-3"></i> <span><i class="flaticon-user-3"></i> User</span></a></li>
+			<li><a href="calendar.html"><i class="icon flaticon-calendar-2"></i> <span><i class="flaticon-calendar-2"></i> Calendar</span></a></li>
+			<li><a href="todo.html"><i class="icon flaticon-pen"></i> <span><i class="flaticon-pen"></i> Todo List</span></a></li>
+			<li><a href="chat.html"><i class="icon flaticon-chat-1"></i> <span><i class="flaticon-chat-1"></i> Chat</span></a></li>
+			<li><a href="activity.html"><i class="icon flaticon-pulse"></i> <span><i class="flaticon-pulse"></i> Lastest Activity</span></a></li>
+		</ul>
+	</div>
+	<!-- End Sidebar Nav -->
+	
+	<!-- Hidden Navigation Bar -->
+	<section class="hidden-bar left-align">
+		
+		<div class="logo"><a href="index.html"><img src="images/logo.png" alt="" title="Atome"></a></div>
+		
+		<div class="color-layer"></div>
+		<div class="hidden-bar-closer">
+			<span class="flaticon-multiply"></span>
+		</div>
+		<!-- Hidden Bar Wrapper -->
+		<div class="hidden-bar-wrapper">
+			<ul class="pages-list">
+				<li class="active"><a href="index.html"><span class="icon flaticon-home-page"></span>Dashboard</a></li>
+				<li><a href="email.html"><span class="icon flaticon-envelope"></span>Email <i>2</i></a></li>
+				<li><a href="contact.html"><span class="icon flaticon-user-2"></span>Contacts</a></li>
+				<li><a href="crypto.html"><span class="icon flaticon-dollar-symbol"></span>Crypto</a></li>
+				<li><a href="kanban.html"><span class="icon flaticon-kanban"></span>Kanban</a></li>
+				<li><a href="invoicing.html"><span class="icon flaticon-invoice"></span>Invoicing</a></li>
+				<li><a href="banking.html"><span class="icon flaticon-wallet"></span>Banking</a></li>
+				<li><a href="ticketing.html"><span class="icon flaticon-tickets"></span>Ticketing</a></li>
+				<li><a href="file-manager.html"><span class="icon flaticon-folder"></span>File Manager</a></li>
+				<li><a href="user.html"><span class="icon flaticon-user-3"></span>User</a></li>
+				<li><a href="calendar.html"><span class="icon flaticon-calendar-2"></span>Calendar</a></li>
+				<li><a href="todo.html"><span class="icon flaticon-pen"></span>Todo List</a></li>
+				<li><a href="chat.html"><span class="icon flaticon-chat-1"></span>Chat</a></li>
+				<li><a href="activity.html"><span class="icon flaticon-pulse"></span>Lastest Activity</a></li>
+			</ul>
+		</div>
+		<!-- Copyright Text -->
+		<div class="copyright-text">Atome Modern Admin Dashboard 2022</div>
+	</section>
+	
+</div>
+<!-- End PageWrapper -->
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-circle-up"></span></div>
+
+<!-- Color Palate / Color Switcher -->
+<div class="color-palate">
+    <div class="color-trigger">
+        <i class="fa fa-gear"></i>
+    </div>
+    <div class="color-palate-head">
+        <h6>Choose Your Color</h6>
+    </div>
+    <div class="various-color clearfix">
+        <div class="colors-list">
+            <span class="palate color-one active" data-theme-file="css/color-themes/theme-one.css"></span>
+            <span class="palate color-two" data-theme-file="css/color-themes/theme-two.css"></span>
+            <span class="palate color-three" data-theme-file="css/color-themes/theme-three.css"></span>
+            <span class="palate color-four" data-theme-file="css/color-themes/theme-four.css"></span>
+            <span class="palate color-five" data-theme-file="css/color-themes/theme-five.css"></span>
+            <span class="palate color-six" data-theme-file="css/color-themes/theme-six.css"></span>
+            <span class="palate color-seven" data-theme-file="css/color-themes/theme-seven.css"></span>
+            <span class="palate color-eight" data-theme-file="css/color-themes/theme-eight.css"></span>
+			<span class="palate color-nine" data-theme-file="css/color-themes/theme-nine.css"></span>
+			<span class="palate color-ten" data-theme-file="css/color-themes/theme-ten.css"></span>
+			<span class="palate color-eleven" data-theme-file="css/color-themes/theme-eleven.css"></span>
+			<span class="palate color-twelve" data-theme-file="css/color-themes/theme-twelve.css"></span>
+        </div>
+    </div>
+	
+    <a href="#" class="purchase-btn">Purchase now $17</a>
+    
+    <div class="palate-foo">
+        <span>You will find much more options for colors and styling in admin panel. This color picker is used only for demonstation purposes.</span>
+    </div>
+
+</div>
+
+<!-- Header Search -->
+<div class="search-popup">
+	<button class="close-search style-two"><span class="flaticon-multiply"></span></button>
+	<button class="close-search"><span class="flaticon-multiply"></span></button>
+	<form method="post" action="blog.html">
+		<div class="form-group">
+			<input type="search" name="search-field" value="" placeholder="Search Here" required="">
+			<button type="submit"><i class="fa fa-search"></i></button>
+		</div>
+	</form>
+</div>
+<!-- End Header Search -->
+
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/magnific-popup.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/script.js"></script>
+<script src="js/color-settings.js"></script>
+
+</body>
+</html>
